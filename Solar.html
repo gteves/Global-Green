@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Green</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #08b9ff;
+        }
+
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 200px; /* Adjust the width as needed */
+            height: 100%; /* Make it span from top to bottom */
+            background-color: #004466; /* A contrasting background color */
+            color: white;
+            display: flex;
+            flex-direction: column; /* Stack items vertically */
+            align-items: center; /* Center items horizontally */
+            padding-top: 170px; /* Add some spacing at the top */
+        }
+
+        h1 {
+            font-size: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            margin: 10px 0; /* Add spacing between links */
+            text-align: center;
+            width: 100%; /* Make links span the width of the navbar */
+            padding: 10px 0; /* Add padding for better clickability */
+            transition: background-color 0.3s ease; /* Smooth hover effect */
+        }
+
+        .navbar a:hover {
+            background-color: #006699; /* Change color on hover */
+        }
+
+        .content {
+            margin-left: 200px; /* Add space to accommodate the navbar */
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <h1>Renewable Technologies</h1>
+            <a href="index.html">Home</a>
+            <a href="Solar.html">Solar Energy</a>
+            <a href="Wind.html">Wind Energy</a>
+            <a href="Hydroelectric.html">Hydroelectric Energy</a>
+            <a href="Bioenergy.html">Bioenergy</a>
+            <a href="Geothermal.html">Geothermal Energy</a>
+            <a href="maps.html">Maps</a>
+        </div>
+    </header>
+
+    <main class="content">
+        <h2>Solar Energy</h2>
+        <p>Add any information pertaining to Solar Energy.</p>
+    </main>
+</body>
+</html>

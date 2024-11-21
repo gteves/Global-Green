@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Global Green</title>
+    <title>Global Green - Wind Energy</title>
     <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-        
+
         body {
             font-family: Arial, sans-serif;
             background-color: #08b9ff;
@@ -20,14 +20,14 @@
             position: fixed;
             top: 0;
             left: 0;
-            width: 200px; /* Adjust the width as needed */
-            height: 100%; /* Make it span from top to bottom */
-            background-color: #004466; /* A contrasting background color */
+            width: 200px;
+            height: 100%;
+            background-color: #004466;
             color: white;
             display: flex;
-            flex-direction: column; /* Stack items vertically */
-            align-items: center; /* Center items horizontally */
-            padding-top: 150px; /* Add some spacing at the top */
+            flex-direction: column;
+            align-items: center;
+            padding-top: 150px;
         }
 
         h1 {
@@ -40,37 +40,111 @@
             text-decoration: none;
             color: white;
             font-size: 18px;
-            margin: 10px 0; /* Add spacing between links */
+            margin: 10px 0;
             text-align: center;
-            width: 100%; /* Make links span the width of the navbar */
-            padding: 10px 0; /* Add padding for better clickability */
-            transition: background-color 0.3s ease; /* Smooth hover effect */
+            width: 100%;
+            padding: 10px 0;
+            transition: background-color 0.3s ease;
         }
 
         .navbar a:hover {
-            background-color: #006699; /* Change color on hover */
+            background-color: #006699;
         }
 
         .content {
-            margin-left: 200px; /* Add space to accommodate the navbar */
+            margin-left: 200px;
             padding: 20px;
         }
-
 
         .box {
             width: 1230px;
-            height: 730px;
             padding: 20px;
-            background-color: #f8f8f8; /* Off-white color */
-            border: 1px solid #ddd; /* Light border for contrast */
-            border-radius: 25px; /* Curves the box */
-            /* width: 80%; /* Width of the box relative to the content area */
-            /* padding: 20px;*/
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+            background-color: #f8f8f8;
+            border: 1px solid #ddd;
+            border-radius: 25px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 36px;
+            font-weight: bold;
+            color: #004466;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            font-size: 24px;
+            color: #006699;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #333;
+        }
+
+        ul {
+            margin: 15px 0;
+            padding-left: 20px;
+            line-height: 1.6;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        table th, table td {
+            text-align: center;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+
+        table th {
+            background-color: #004466;
+            color: white;
+        }
+
+        table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        table tr:hover {
+            background-color: #e6f7ff;
+        }
+
+        a {
+            text-decoration: none;
+            color: #004466;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #004466;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 15px;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #006699;
         }
     </style>
 </head>
-
 <body>
     <header>
         <div class="navbar">
@@ -88,7 +162,30 @@
     <main class="content">
         <div class="box">
             <h2>Wind Energy</h2>
-            <p>Add any information pertaining to wind energy.</p>
+            <p>
+                Wind energy is a renewable energy source that harnesses the kinetic energy of the wind to generate electricity. Wind turbines convert the kinetic energy of the wind into mechanical energy, which is then used to drive a generator and produce electricity.
+            </p>
+            <p>
+                This clean and renewable source of energy helps reduce reliance on fossil fuels, contributing to a greener and more sustainable energy future.
+            </p>
+
+            <h3>Key Benefits of Wind Energy</h3>
+            <ul>
+                <li><strong>Environmentally Friendly:</strong> Wind energy produces no greenhouse gas emissions or air pollution during operation.</li>
+                <li><strong>Cost-Effective:</strong> Wind turbines have low operational costs after installation, making them economically viable over time.</li>
+                <li><strong>Energy Independence:</strong> Wind energy reduces dependence on imported fuels and promotes local energy generation.</li>
+            </ul>
+
+            <h3>Challenges</h3>
+            <p>
+                Wind energy has some limitations, such as its dependence on wind speed and direction. Additionally, initial installation costs and land use requirements can pose challenges. However, advancements in wind turbine technology are addressing these issues.
+            </p>
+
+            <h3>Resources for Wind Energy</h3>
+            <ul>
+                <li><a href="https://www.energy.gov/eere/wind" target="_blank">U.S. Department of Energy - Wind Energy</a></li>
+                <li><a href="https://www.windeurope.org/" target="_blank">WindEurope - Wind Energy News</a></li>
+            </ul>
         </div>
     </main>
 </body>

@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Global Green</title>
+    <title>Global Green - Hydroelectric Energy</title>
     <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-        
+
         body {
             font-family: Arial, sans-serif;
             background-color: #08b9ff;
@@ -20,14 +20,14 @@
             position: fixed;
             top: 0;
             left: 0;
-            width: 200px; /* Adjust the width as needed */
-            height: 100%; /* Make it span from top to bottom */
-            background-color: #004466; /* A contrasting background color */
+            width: 200px;
+            height: 100%;
+            background-color: #004466;
             color: white;
             display: flex;
-            flex-direction: column; /* Stack items vertically */
-            align-items: center; /* Center items horizontally */
-            padding-top: 150px; /* Add some spacing at the top */
+            flex-direction: column;
+            align-items: center;
+            padding-top: 150px;
         }
 
         h1 {
@@ -40,37 +40,71 @@
             text-decoration: none;
             color: white;
             font-size: 18px;
-            margin: 10px 0; /* Add spacing between links */
+            margin: 10px 0;
             text-align: center;
-            width: 100%; /* Make links span the width of the navbar */
-            padding: 10px 0; /* Add padding for better clickability */
-            transition: background-color 0.3s ease; /* Smooth hover effect */
+            width: 100%;
+            padding: 10px 0;
+            transition: background-color 0.3s ease;
         }
 
         .navbar a:hover {
-            background-color: #006699; /* Change color on hover */
+            background-color: #006699;
         }
 
         .content {
-            margin-left: 200px; /* Add space to accommodate the navbar */
+            margin-left: 200px;
             padding: 20px;
         }
-
 
         .box {
             width: 1230px;
-            height: 730px;
             padding: 20px;
-            background-color: #f8f8f8; /* Off-white color */
-            border: 1px solid #ddd; /* Light border for contrast */
-            border-radius: 25px; /* Curves the box */
-            /* width: 80%; /* Width of the box relative to the content area */
-            /* padding: 20px;*/
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+            background-color: #f8f8f8;
+            border: 1px solid #ddd;
+            border-radius: 25px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 36px;
+            font-weight: bold;
+            color: #004466;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            font-size: 24px;
+            color: #006699;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #333;
+        }
+
+        ul {
+            margin: 15px 0;
+            padding-left: 20px;
+            line-height: 1.6;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #004466;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
-
 <body>
     <header>
         <div class="navbar">
@@ -88,7 +122,27 @@
     <main class="content">
         <div class="box">
             <h2>Hydroelectric Energy</h2>
-            <p>Add any information pertaining to Hydroelectric energy.</p>
+            <p>
+                Hydroelectric energy harnesses the power of moving water to generate electricity. It is one of the most widely used renewable energy sources, leveraging the kinetic energy of flowing or falling water to spin turbines connected to generators.
+            </p>
+
+            <h3>Key Benefits of Hydroelectric Energy</h3>
+            <ul>
+                <li><strong>Reliable:</strong> Provides a consistent and steady source of power.</li>
+                <li><strong>Low Operating Costs:</strong> Operational costs are minimal after setup.</li>
+                <li><strong>Environmentally Friendly:</strong> Produces no air pollution or greenhouse gas emissions during operation.</li>
+            </ul>
+
+            <h3>Challenges</h3>
+            <p>
+                Challenges include high initial costs for infrastructure, potential environmental disruptions, and reliance on water availability.
+            </p>
+
+            <h3>Resources for Hydroelectric Energy</h3>
+            <ul>
+                <li><a href="https://www.energy.gov/eere/water/hydropower-basics" target="_blank">U.S. Department of Energy - Hydropower Basics</a></li>
+                <li><a href="https://www.hydropower.org/" target="_blank">International Hydropower Association</a></li>
+            </ul>
         </div>
     </main>
 </body>

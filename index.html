@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Global Green</title>
+    <title>Global Green - Home</title>
     <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-        
+
         body {
             font-family: Arial, sans-serif;
             background-color: #08b9ff;
@@ -20,14 +20,14 @@
             position: fixed;
             top: 0;
             left: 0;
-            width: 200px; /* Adjust the width as needed */
-            height: 100%; /* Make it span from top to bottom */
-            background-color: #004466; /* A contrasting background color */
+            width: 200px;
+            height: 100%;
+            background-color: #004466;
             color: white;
             display: flex;
-            flex-direction: column; /* Stack items vertically */
-            align-items: center; /* Center items horizontally */
-            padding-top: 150px; /* Add some spacing at the top */
+            flex-direction: column;
+            align-items: center;
+            padding-top: 150px;
         }
 
         h1 {
@@ -40,37 +40,92 @@
             text-decoration: none;
             color: white;
             font-size: 18px;
-            margin: 10px 0; /* Add spacing between links */
+            margin: 10px 0;
             text-align: center;
-            width: 100%; /* Make links span the width of the navbar */
-            padding: 10px 0; /* Add padding for better clickability */
-            transition: background-color 0.3s ease; /* Smooth hover effect */
+            width: 100%;
+            padding: 10px 0;
+            transition: background-color 0.3s ease;
         }
 
         .navbar a:hover {
-            background-color: #006699; /* Change color on hover */
+            background-color: #006699;
         }
 
         .content {
-            margin-left: 200px; /* Add space to accommodate the navbar */
+            margin-left: 200px;
             padding: 20px;
         }
-
 
         .box {
             width: 1230px;
-            height: 730px;
             padding: 20px;
-            background-color: #f8f8f8; /* Off-white color */
-            border: 1px solid #ddd; /* Light border for contrast */
-            border-radius: 25px; /* Curves the box */
-            /* width: 80%; /* Width of the box relative to the content area */
-            /* padding: 20px;*/
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+            background-color: #f8f8f8;
+            border: 1px solid #ddd;
+            border-radius: 25px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 36px;
+            font-weight: bold;
+            color: #004466;
+            margin-bottom: 20px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .grid-item {
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .grid-item img {
+            width: 100%;
+            max-height: 150px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .grid-item h3 {
+            font-size: 20px;
+            color: #004466;
+            margin-bottom: 10px;
+        }
+
+        .grid-item p {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #004466;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: auto;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #006699;
         }
     </style>
 </head>
-
 <body>
     <header>
         <div class="navbar">
@@ -88,8 +143,45 @@
     <main class="content">
         <div class="box">
             <h2>Welcome to Global Green</h2>
-            <p>This is the content area where you can add your text, images, or other elements. The navbar stays fixed on the left side as you scroll.</p>
+            <p>
+                Discover how renewable energy can shape a sustainable future. Explore resources, compare energy types, and connect with others in the journey toward cleaner energy.
+            </p>
+
+            <h2>Featured Renewable Technologies</h2>
+            <div class="grid">
+                <div class="grid-item">
+                    <img src="C:\Users\varun\OneDrive\Desktop\SE Team Project\solar.jpg" alt="Solar Energy">
+                    <h3>Solar Energy</h3>
+                    <p>Harness the power of the sun for clean electricity.</p>
+                    <a class="cta-button" href="Solar.html">Learn More</a>
+                </div>
+                <div class="grid-item">
+                    <img src="C:\Users\varun\OneDrive\Desktop\SE Team Project\wind.jpg" alt="Wind Energy">
+                    <h3>Wind Energy</h3>
+                    <p>Generate power from the kinetic energy of the wind.</p>
+                    <a class="cta-button" href="Wind.html">Learn More</a>
+                </div>
+                <div class="grid-item">
+                    <img src="C:\Users\varun\OneDrive\Desktop\SE Team Project\Hydroelectric.png" alt="Hydroelectric Energy">
+                    <h3>Hydroelectric Energy</h3>
+                    <p>Utilize moving water to generate sustainable power.</p>
+                    <a class="cta-button" href="Hydroelectric.html">Learn More</a>
+                </div>
+                <div class="grid-item">
+                    <img src="C:\Users\varun\OneDrive\Desktop\SE Team Project\geothermal.jpg" alt="Geothermal Energy">
+                    <h3>Geothermal Energy</h3>
+                    <p>Tap into Earth's heat for efficient energy solutions.</p>
+                    <a class="cta-button" href="Geothermal.html">Learn More</a>
+                </div>
+            </div>
+
+            <h2>Explore Renewable Projects</h2>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3156.1012217600734!2d-122.40484998468118!3d37.781763319758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809d50c4e1b9%3A0x6f7b5f43a874d2c4!2sClean%20Energy%20Center!5e0!3m2!1sen!2sus!4v1638344735992!5m2!1sen!2sus"
+                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
         </div>
     </main>
 </body>
 </html>
+

@@ -4,127 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Global Green - Home</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #08b9ff;
-        }
-
-        .navbar {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 200px;
-            height: 100%;
-            background-color: #004466;
-            color: white;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding-top: 150px;
-        }
-
-        h1 {
-            font-size: 20px;
-            margin-bottom: 20px;
-            text-align: center;
-        }
-
-        .navbar a {
-            text-decoration: none;
-            color: white;
-            font-size: 18px;
-            margin: 10px 0;
-            text-align: center;
-            width: 100%;
-            padding: 10px 0;
-            transition: background-color 0.3s ease;
-        }
-
-        .navbar a:hover {
-            background-color: #006699;
-        }
-
-        .content {
-            margin-left: 200px;
-            padding: 20px;
-        }
-
-        .box {
-            width: 1230px;
-            padding: 20px;
-            background-color: #f8f8f8;
-            border: 1px solid #ddd;
-            border-radius: 25px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        h2 {
-            font-size: 36px;
-            font-weight: bold;
-            color: #004466;
-            margin-bottom: 20px;
-        }
-
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 20px;
-        }
-
-        .grid-item {
-            padding: 20px;
-            background-color: #fff;
-            border: 1px solid #ddd;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .grid-item img {
-            width: 100%;
-            max-height: 150px;
-            border-radius: 10px;
-            margin-bottom: 15px;
-        }
-
-        .grid-item h3 {
-            font-size: 20px;
-            color: #004466;
-            margin-bottom: 10px;
-        }
-
-        .grid-item p {
-            font-size: 16px;
-            color: #333;
-            margin-bottom: 15px;
-            text-align: justify;
-        }
-
-        .cta-button {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #004466;
-            color: white;
-            border-radius: 5px;
-            text-decoration: none;
-            margin-top: auto;
-            transition: background-color 0.3s ease;
-        }
-
-        .cta-button:hover {
-            background-color: #006699;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
@@ -138,6 +18,10 @@
             <a href="Geothermal.html">Geothermal Energy</a>
             <a href="maps.html">Maps</a>
         </div>
+        <div class="top-bar">
+            <button class="login-btn" onclick="location.href='login.html';">Login</button>
+            <button class="signup-btn" onclick="location.href='signup.html';">Sign Up</button>
+        </div>
     </header>
 
     <main class="content">
@@ -150,25 +34,25 @@
             <h2>Featured Renewable Technologies</h2>
             <div class="grid">
                 <div class="grid-item">
-                    <img src="C:\Users\varun\OneDrive\Desktop\SE Team Project\solar.jpg" alt="Solar Energy">
+                    <img src="images/solar.jpg" alt="Solar Energy">
                     <h3>Solar Energy</h3>
                     <p>Harness the power of the sun for clean electricity.</p>
                     <a class="cta-button" href="Solar.html">Learn More</a>
                 </div>
                 <div class="grid-item">
-                    <img src="C:\Users\varun\OneDrive\Desktop\SE Team Project\wind.jpg" alt="Wind Energy">
+                    <img src="images/wind.jpg" alt="Wind Energy">
                     <h3>Wind Energy</h3>
                     <p>Generate power from the kinetic energy of the wind.</p>
                     <a class="cta-button" href="Wind.html">Learn More</a>
                 </div>
                 <div class="grid-item">
-                    <img src="C:\Users\varun\OneDrive\Desktop\SE Team Project\Hydroelectric.png" alt="Hydroelectric Energy">
+                    <img src="images/Hydroelectric.png" alt="Hydroelectric Energy">
                     <h3>Hydroelectric Energy</h3>
                     <p>Utilize moving water to generate sustainable power.</p>
                     <a class="cta-button" href="Hydroelectric.html">Learn More</a>
                 </div>
                 <div class="grid-item">
-                    <img src="C:\Users\varun\OneDrive\Desktop\SE Team Project\geothermal.jpg" alt="Geothermal Energy">
+                    <img src="images/geothermal.jpg" alt="Geothermal Energy">
                     <h3>Geothermal Energy</h3>
                     <p>Tap into Earth's heat for efficient energy solutions.</p>
                     <a class="cta-button" href="Geothermal.html">Learn More</a>
@@ -184,4 +68,5 @@
     </main>
 </body>
 </html>
+
 

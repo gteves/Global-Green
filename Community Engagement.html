@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Engagement</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .content-box {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #f8f8f8;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .comments-section {
+            margin-top: 20px;
+        }
+        .comment {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #e8f5ff;
+            border-radius: 5px;
+        }
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            resize: none;
+        }
+        .btn {
+            background-color: #004466;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #006699;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <h1>Renewable Technologies</h1>
+            <a href="index.html">Home</a>
+            <a href="Solar.html">Solar Energy</a>
+            <a href="Wind.html">Wind Energy</a>
+            <a href="Hydroelectric.html">Hydroelectric Energy</a>
+            <a href="Bioenergy.html">Bioenergy</a>
+            <a href="Geothermal.html">Geothermal Energy</a>
+            <a href="maps.html">Maps</a>
+            <a href="community.html">Community Engagement</a>
+        </div>
+    </header>
+    <main>
+        <div class="content-box">
+            <h2>Community Engagement</h2>
+            <p>
+                Foster a sense of community responsibility in promoting sustainable practices and environmental stewardship by encouraging users to share their own experiences with renewable energy technologies and discuss their impact on the environment.
+            </p>
+            <button class="btn" onclick="toggleCommentForm()">Share Your Story</button>
+
+            <div class="comments-section" id="commentsSection">
+                <h3>Comments</h3>
+                <div id="comments-list">
+                    <!-- User comments will appear here -->
+                </div>
+                <form id="comment-form" style="display: none; margin-top: 10px;">
+                    <textarea id="new-comment" rows="3" placeholder="Write your comment here..."></textarea>
+                    <button type="submit" class="btn">Post Comment</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script>
+        // Retrieve the logged-in user's name or use "Guest"
+        const loggedInUser = localStorage.getItem("loggedInUser") || "Guest";
+
+        // Toggle the visibility of the comment form
+        function toggleCommentForm() {
+            const form = document.getElementById("comment-form");
+            form.style.display = form.style.display === "none" ? "block" : "none";
+        }
+
+        // Handle comment form submission
+        document.getElementById("comment-form").addEventListener("submit", function (e) {
+            e.preventDefault();
+            const commentText = document.getElementById("new-comment").value.trim();
+            if (commentText) {
+                const commentList = document.getElementById("comments-list");
+                const newComment = document.createElement("div");
+                newComment.classList.add("comment");
+                newComment.innerHTML = `<strong>${loggedInUser}:</strong> ${commentText}`;
+                commentList.appendChild(newComment);
+                document.getElementById("new-comment").value = ""; // Clear the textarea
+            }
+        });
+    </script>
+</body>
+</html>

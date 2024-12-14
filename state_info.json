@@ -1,0 +1,502 @@
+[
+    {
+        "name": "Alabama",
+        "rank": "44th",
+        "total renewable energy production": "4,534 thousand megawatt hours (3.2%)",
+        "wind": "NaN",
+        "solar": "1216 thousand MWh",
+        "geothermal": "NaN",
+        "wood/wood derived": "3,237 thousand MWh",
+        "other biomass": "11 thousand MWh"
+    },
+    {
+        "name": "Alaska",
+        "rank": "46th",
+        "total renewable energy production": "170 thousand megawatt hours (2.5%)",
+        "wind": "103 thousand MWh",
+        "solar": "NaN",
+        "geothermal": "NaN",
+        "wood/wood derived": "NaN",
+        "other biomass": "40 thousand MWh"
+    },
+    {
+        "name": "Arizona",
+        "rank": "27th",
+        "total renewable energy production": "12,067 thousand megawatt hours (10.5%)",
+        "wind": "2,249 thousand MWh",
+        "solar": "9,614 thousand MWh",
+        "geothermal": "NaN",
+        "wood/wood derived": "100 thousand MWh",
+        "other biomass": "5 thousand MWh"
+    },
+    {
+        "name": "Arkansas",
+        "rank": "40th",
+        "total renewable energy production": "2,530 thousand megawatt hours (4.1%)",
+        "wind": "NaN",
+        "solar": "1,714 thousand MWh",
+        "geothermal": "NaN",
+        "wood/wood derived": "781 thousand MWh",
+        "other biomass": "10 thousand MWh"
+    },
+    {
+        "name": "California",
+        "rank": "9th",
+        "total renewable energy production": "75,801 thousand megawatt hours (35.0%)",
+        "wind": "13,645 thousand MWh",
+        "solar": "46,109 thoudand MWh",
+        "geothermal": "11,119 thousand MWh",
+        "wood/wood derived": "2,649 thousand MWh",
+        "other biomass": "2,283 thousand MWh"
+    },
+    {
+        "name": "Colorado",
+        "rank": "6th",
+        "total renewable energy production": "21,973 thousand megawatt hours (37.1%)",
+        "wind": "17,087 thousand MWh",
+        "solar": "4,777 thousand MWh",
+        "geothermal": "NaN",
+        "wood/wood derived": "37 thousand MWh",
+        "other biomass": "69 thousand MWh"
+    },
+    {
+        "name": "Connecicut",
+        "rank": "48th",
+        "total renewable energy production": "1,061 thousand megawatt hours (2.4%)",
+        "wind": "9 thousand MWh",
+        "solar": "459 thousand MWh",
+        "geothermal": "NaN",
+        "wood/wood derived": "223 thousand MWh",
+        "other biomass": "354 thousand MWh"
+    },
+    {
+        "name": "Delaware",
+        "rank": "37th",
+        "total renewable energy production": "223 thousand megawatt hours (2.5%)",
+        "wind": "NaN",
+        "solar": "158 thousand MWh",
+        "geothermal": "NaN",
+        "wood/wood derived": "NaN",
+        "other biomass": "63 thousand MWh"
+    },
+    {
+        "name": "Florida",
+        "rank": "34th",
+        "total renewable energy production": "20,247 thousand megawatt hours (2.5%)",
+        "wind": "NaN",
+        "solar": "17,211 thousand MWh",
+        "geothermal": "NaN",
+        "wood/wood derived": "1,325 thousand MWh",
+        "other biomass": "1,709 thousand MWh"
+    },
+    {
+        "name": "Georgia",
+        "rank": "30th",
+        "total renewable energy production": "13,671 thousand megawatt hours (9.8%)",
+        "wind": "NaN",
+        "solar": "8,500 thousand MWh",
+        "geothermal": "NaN",
+        "wood/wood derived": "4,867 thousand MWh",
+        "other biomass": "305 thousand MWh"
+    },
+    {
+        "name": "Hawaii",
+        "rank": "18th",
+        "total renewable energy production": "1,888 thousand megawatt hours (20.6%)",
+        "wind": "665 thousand MWh",
+        "solar": "691 thousand MWh",
+        "geothermal": "190 thousand MWh",
+        "wood/wood derived": "NaN",
+        "other biomass": "274 thousand MWh"
+    },
+    {
+        "name": "Idaho",
+        "rank": "15th",
+        "total renewable energy production": "3,976 thousand megawatt hours (22.6%)",
+        "wind": "2,528 thousand MWh",
+        "solar": "968 thousand MWh",
+        "geothermal": "51 thousand MWh",
+        "wood/wood derived": "306 thousand MWh",
+        "other biomass": "94 thousand MWh"
+    },
+    {
+        "name": "Illinois",
+        "rank": "22th",
+        "total renewable energy production": "26,452 thousand megawatt hours (14.3%)",
+        "wind": "23,862 thousand MWh",
+        "solar": "2,349 thousand MWh",
+        "geothermal": "NaN",
+        "wood/wood derived": "NaN",
+        "other biomass": "241 thousand MWh"
+    },
+    {
+        "name": "Indiana",
+        "rank": "23rd",
+        "total renewable energy production": "12,263 thousand megawatt hours (22.6%)",
+        "wind": "9,326 thousand MWh",
+        "solar": "2,704 thousand MWh",
+        "geothermal": "NaN",
+        "wood/wood derived": "NaN",
+        "other biomass": "233 thousand MWh"
+    },
+    {
+        "name": "Iowa",
+        "rank": "1st",
+        "total renewable energy production": "44,560 thousand megawatt hours (65.1%)",
+        "wind": "43,787 thousand MWh",
+        "solar": "559 thousand MWh",
+        "geothermal": "NaN",
+        "wood/wood derived": "NaN",
+        "other biomass": "212 thousand MWh"
+    },
+    {
+        "name": "Kansas",
+        "rank": "3rd",
+        "total renewable energy production": "30,353 thousand megawatt hours (51.8%)",
+        "wind": "30,208 thousand MWh",
+        "solar": "80 thousand MWh",
+        "geothermal": "NaN",
+        "wood/wood derived": "NaN",
+        "other biomass": "56 thousand MWh"
+    },
+    {
+        "name": "Kentucky",
+        "rank": "50th",
+        "total renewable energy production": "606 thousand megawatt hours (0.9%)",
+        "wind": "318 thousand MWh",
+        "solar": "196 thousand MWh",
+        "geothermal": "NaN",
+        "wood/wood derived": "NaN",
+        "other biomass": "88 thousand MWh"
+    },
+    {
+        "name": "Louisiana",
+        "rank": "45th",
+        "total renewable energy production": "2,791 thousand megawatt hours (2.8%)",
+        "wind": "NaN",
+        "solar": "765 thousand MWh",
+        "geothermal": "NaN",
+        "wood/wood derived": "NaN",
+        "other biomass": "83 thousand MWh"
+    },
+    {
+        "name": "Maine",
+        "rank": "10th",
+        "total renewable energy production": "4,597 thousand megawatt hours (34.8%)",
+        "wind": "2,316 thousand MWh",
+        "solar": "866 thousand MWh",
+        "geothermal": "NaN",
+        "wood/wood derived": "1,346 thousand MWh",
+        "other biomass": "70 thousand MWh"
+    },
+    {
+        "name": "Maryland",
+        "rank": "36th",
+        "total renewable energy production": "1,912 thousand megawatt hours (5.3%)",
+        "wind": "524 thousand MWh",
+        "solar": "1,060 thousand MWh",
+        "geothermal": "NaN",
+        "wood/wood derived": "NaN",
+        "other biomass": "328 thousand MWh"
+    },
+    {
+        "name": "Massachusetts",
+        "rank": "21st",
+        "total renewable energy production": "3,250 thousand megawatt hours (15.7%)",
+        "wind": "181 thousand MWh",
+        "solar": "2,153 thousand MWh",
+        "geothermal": "NaN",
+        "wood/wood derived": "NaN",
+        "other biomass": "870 thousand MWh"
+    },
+    {
+        "name": "Michigan",
+        "rank": "26th",
+        "total renewable energy production": "12,958 thousand megawatt hours (10.5%)",
+        "wind": "9.272 thousand MWh",
+        "solar": "1,665 thousand MWh",
+        "geothermal": "NaN",
+        "wood/wood derived": "1,322 thousand MWh",
+        "other biomass": "699 thousand MWh"
+    },
+    {
+        "name": "Minnesota",
+        "rank": "13th",
+        "total renewable energy production": "18,320 thousand megawatt hours (31.1%)",
+        "wind": "14,954 thousand MWh",
+        "solar": "2,191 thousand MWh",
+        "geothermal": "NaN",
+        "wood/wood derived": "880",
+        "other biomass": "296 thousand MWh"
+    },
+    {
+        "name": "Mississippi",
+        "rank": "43rd",
+        "total renewable energy production": "1,248 thousand megawatt hours (3.5%)",
+        "wind": "171 thousand MWh",
+        "solar": "1,139 thousand MWh",
+        "geothermal": "NaN",
+        "wood/wood derived": "1,248 thousand MWh",
+        "other biomass": "4 thousand MWh"
+    },
+    {
+        "name": "Missouri",
+        "rank": "24th",
+        "total renewable energy production": "7,366 thousand megawatt hours (10.8%)",
+        "wind": "7,078 thousand MWh",
+        "solar": "183 thousand MWh",
+        "geothermal": "NaN",
+        "wood/wood derived": "46 thousand MWh",
+        "other biomass": "43 thousand MWh"
+    },
+    {
+        "name": "Montana",
+        "rank": "17th",
+        "total renewable energy production": "5,789 thousand megawatt hours (22.4%)",
+        "wind": "5,407 thousand MWh",
+        "solar": "359 thousand MWh",
+        "geothermal": "NaN",
+        "wood/wood derived": "18 thousand MWh",
+        "other biomass": "4 thousand MWh"
+    },
+    {
+        "name": "Nebraska",
+        "rank": "12th",
+        "total renewable energy production": "12,080 thousand megawatt hours (31.6%)",
+        "wind": "11,853 thousand MWh",
+        "solar": "144 thousand MWh",
+        "geothermal": "NaN",
+        "wood/wood derived": "NaN",
+        "other biomass": "83 thousand MWh"
+    },
+    {
+        "name": "Nevada",
+        "rank": "8th",
+        "total renewable energy production": "16,033 thousand megawatt hours (35.6%)",
+        "wind": "290 thousand MWh",
+        "solar": "11,632 thousand MWh",
+        "geothermal": "4,056 thousand MWh",
+        "wood/wood derived": "NaN",
+        "other biomass": "47 thousand MWh"
+    },
+    {
+        "name": "New Hampshire",
+        "rank": "35th",
+        "total renewable energy production": "1,180 thousand megawatt hours (6.5%)",
+        "wind": "420 thousand MWh",
+        "solar": "NaN",
+        "geothermal": "NaN",
+        "wood/wood derived": "618 thousand MWh",
+        "other biomass": "139 thousand MWh"
+    },
+    {
+        "name": "New Jersey",
+        "rank": "42nd",
+        "total renewable energy production": "2,377 thousand megawatt hours (3.8%)",
+        "wind": "19 thousand MWh",
+        "solar": "1,688 thousand MWh",
+        "geothermal": "NaN",
+        "wood/wood derived": "NaN",
+        "other biomass": "671 thousand MWh"
+    },
+    {
+        "name": "New Mexico",
+        "rank": "4th",
+        "total renewable energy production": "18,263 thousand megawatt hours (46.2%)",
+        "wind": "14,525 thousand MWh",
+        "solar": "3,695 thousand MWh",
+        "geothermal": "30 thousand MWh",
+        "wood/wood derived": "NaN",
+        "other biomass": "12 thousand MWh"
+    },
+    {
+        "name": "New York",
+        "rank": "33th",
+        "total renewable energy production": "10,097 thousand megawatt hours (7.7%)",
+        "wind": "5,628 thousand MWh",
+        "solar": "2,872 thousand MWh",
+        "geothermal": "NaN",
+        "wood/wood derived": "156 thousand MWh",
+        "other biomass": "1,437 thousand MWh"
+    },
+    {
+        "name": "North Carolina",
+        "rank": "25th",
+        "total renewable energy production": "14,294 thousand megawatt hours (10.7%)",
+        "wind": "497 thousand MWh",
+        "solar": "12,206 thousand MWh",
+        "geothermal": "NaN",
+        "wood/wood derived": "1,152 thousand MWh",
+        "other biomass": "328 thousand MWh"
+    },
+    {
+        "name": "North Dakota",
+        "rank": "11th",
+        "total renewable energy production": "14,946 thousand megawatt hours (34.7%)",
+        "wind": "14,946 thousand MWh",
+        "solar": "NaN",
+        "geothermal": "NaN",
+        "wood/wood derived": "NaN",
+        "other biomass": "NaN"
+    },
+    {
+        "name": "Ohio",
+        "rank": "39th",
+        "total renewable energy production": "6,386 thousand megawatt hours (4.4%)",
+        "wind": "2,832 thousand MWh",
+        "solar": "3,280 thousand MWh",
+        "geothermal": "NaN",
+        "wood/wood derived": "132 thousand MWh",
+        "other biomass": "144 thousand MWh"
+    },
+    {
+        "name": "Oklahoma",
+        "rank": "5th",
+        "total renewable energy production": "39,526 thousand megawatt hours (42.3%)",
+        "wind": "39,021 thousand MWh",
+        "solar": "211 thousand MWh",
+        "geothermal": "NaN",
+        "wood/wood derived": "211 thousand MWh",
+        "other biomass": "88 thousand MWh"
+    },
+    {
+        "name": "Oregon",
+        "rank": "19th",
+        "total renewable energy production": "11,783 thousand megawatt hours (18.9%)",
+        "wind": "8,685 thousand MWh",
+        "solar": "1,963 thousand MWh",
+        "geothermal": "130 thousand MWh",
+        "wood/wood derived": "678 thousand MWh",
+        "other biomass": "285 thousand MWh"
+    },
+    {
+        "name": "Pennsylvania",
+        "rank": "47th",
+        "total renewable energy production": "5,883 thousand megawatt hours (2.4%)",
+        "wind": "3,412 thousand MWh",
+        "solar": "959 thousand MWh",
+        "geothermal": "NaN",
+        "wood/wood derived": "239 thousand MWh",
+        "other biomass": "1,267 thousand MWh"
+    },
+    {
+        "name": "Rhode Island",
+        "rank": "28th",
+        "total renewable energy production": "997 thousand megawatt hours (10.2)",
+        "wind": "179 thousand MWh",
+        "solar": "565 thousand MWh",
+        "geothermal": "NaN",
+        "wood/wood derived": "NaN",
+        "other biomass": "246 thousand MWh"
+    },
+    {
+        "name": "South Carolina",
+        "rank": "38th",
+        "total renewable energy production": "4,879 thousand megawatt hours (4.8%)",
+        "wind": "NaN",
+        "solar": "2,974 thousand MWh",
+        "geothermal": "NaN",
+        "wood/wood derived": "1,825 thousand MWh",
+        "other biomass": "82 thousand MWh"
+    },
+    {
+        "name": "South Dakota",
+        "rank": "2nd",
+        "total renewable energy production": "10,968 thousand megawatt hours (56.3%)",
+        "wind": "10,678 thousand MWh",
+        "solar": "272 thousand MWh",
+        "geothermal": "NaN",
+        "wood/wood derived": "NaN",
+        "other biomass": "5 thousand MWh"
+    },
+    {
+        "name": "Tennessee",
+        "rank": "49th",
+        "total renewable energy production": "1,577 thousand megawatt hours (2.0%)",
+        "wind": "8 thousand MWh",
+        "solar": "1,096 thousand MWh",
+        "geothermal": "NaN",
+        "wood/wood derived": "394 thousand MWh",
+        "other biomass": "64 thousand MWh"
+    },
+    {
+        "name": "Texas",
+        "rank": "14th",
+        "total renewable energy production": "158,917 thousand megawatt hours (28.6%)",
+        "wind": "122,977 thousand MWh",
+        "solar": "34,696 thousand MWh",
+        "geothermal": "NaN",
+        "wood/wood derived": "1,080 thousand MWh",
+        "other biomass": "160 thousand MWh"
+    },
+    {
+        "name": "Utah",
+        "rank": "20th",
+        "total renewable energy production": "5,896 thousand megawatt hours (18.3%)",
+        "wind": "700 thousand MWh",
+        "solar": "4,665 thousand MWh",
+        "geothermal": "444 thousand MWh",
+        "wood/wood derived": "NaN",
+        "other biomass": "91 thousand MWh"
+    },
+    {
+        "name": "Vermont",
+        "rank": "7th",
+        "total renewable energy production": "910 thousand megawatt hours (37.1%)",
+        "wind": "340 thousand MWh",
+        "solar": "205 thousand MWh",
+        "geothermal": "NaN",
+        "wood/wood derived": "299 thousand MWh",
+        "other biomass": "44 thousand MWh"
+    },
+    {
+        "name": "Virginia",
+        "rank": "29th",
+        "total renewable energy production": "9,801 thousand megawatt hours (9.9%)",
+        "wind": "47 thousand MWh",
+        "solar": "6,489 thousand MWh",
+        "geothermal": "NaN",
+        "wood/wood derived": "2,429 thousand MWh",
+        "other biomass": "837 thousand MWh"
+    },
+    {
+        "name": "Washington",
+        "rank": "31st",
+        "total renewable energy production": "9,272 thousand megawatt hours (9.1%)",
+        "wind": "7,694 thousand MWh",
+        "solar": "417 thousand MWh",
+        "geothermal": "NaN",
+        "wood/wood derived": "1,046 thousand MWh",
+        "other biomass": "111 thousand MWh"
+    },
+    {
+        "name": "West Virginia",
+        "rank": "41st",
+        "total renewable energy production": "2,104 thousand megawatt hours (4.0%)",
+        "wind": "1,954 thousand MWh",
+        "solar": "136 thousand MWh",
+        "geothermal": "NaN",
+        "wood/wood derived": "NaN",
+        "other biomass": "4 thousand MWh"
+    },
+    {
+        "name": "Wisconsin",
+        "rank": "32nd",
+        "total renewable energy production": "5,367 thousand megawatt hours (8.3%)",
+        "wind": "1,939 thousand MWh",
+        "solar": "2,438 thousand MWh",
+        "geothermal": "NaN",
+        "wood/wood derived": "635 thousand MWh",
+        "other biomass": "356 thousand MWh"
+    },
+    {
+        "name": "Wyoming",
+        "rank": "16th",
+        "total renewable energy production": "9,404 thousand megawatt hours (22.5%)",
+        "wind": "9,077 thousand MWh",
+        "solar": "328 thousand MWh",
+        "geothermal": "NaN",
+        "wood/wood derived": "NaN",
+        "other biomass": "NaN"
+    }
+]
